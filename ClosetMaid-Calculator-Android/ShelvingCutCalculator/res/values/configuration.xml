@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minImperialLength">12</string>
+    <string name="maxImperialLenght">144</string>
+    <string name="minMetricLength">30.48</string>
+    <string name="maxMetricLength">365.76</string>
+    
+</resources>

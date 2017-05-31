@@ -1,0 +1,664 @@
+// Variables
+$closetMaid_red: #ED1A2E;
+$closetMaid_redHighlight: #BB1924;
+$closetMaid_gray: #F2F2F2;
+$closetMaid_grayHighlight: #E3E3E3;
+$closetMaid_label: #3D3D3D;
+$helvet_cond: "HelveticaNeue Cond";
+$helvet_bold: "HelveticaNeue Bold";
+// files
+$urlHelvetCond: url('../Resources/Fonts/HelveticaNeue-Condensed.ttf');
+$urlHelvetBold: url('../Resources/Fonts/HelveticaNeue-BoldCond.ttf');
+$urlArrow: url('../Resources/Images/icon-RightArrow.png');
+$urlBackBtn: url('../Resources/Images/button-Back.png');
+$urlBackBtnHighlight: url('../Resources/Images/button-Back-Highlighted.png');
+$urlSettingsBtn: url('../Resources/Images/icon-Settings.png');
+$urlSettingsHighlightBtn: url('../Resources/Images/icon-Settings-Highlight.png');
+$urlTrashBtn: url('../Resources/Images/icon-Trash.png');
+$urlTrashHighlightBtn: url('../Resources/Images/icon-Trash-Highlight.png');
+$urlHomeBtn: url('../Resources/Images/button-Home.png');
+$urlHomeHighlightBtn: url('../Resources/Images/button-Home-Highlighted.png');
+$urlStartShelvingCut: url('../Resources/Images/start-ShelvingCut.png');
+$urlStartShelvingCutHighlight: url('../Resources/Images/start-ShelvingCutHighlight.png');
+$urlStartHardware: url('../Resources/Images/start-Hardware.png');
+$urlStartHardwareHighlight: url('../Resources/Images/start-HardwareHighlight.png');
+$urlNoJavascript: url('../Resources/Images/javascript_not_enabled.png');
+$urlCloseBtn: url('../Resources/Images/close.png');
+
+// Mixins
+@mixin transformTranslate($x, $y: 0) {
+	-webkit-transform: translate($x, $y);
+	-moz-transform: translate($x, $y);
+	-ms-transform: translate($x, $y);
+	-o-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin transition($dur) {
+	-webkit-transition-duration: $dur;
+	-moz-transition-duration: $dur;
+	-ms-transition-duration: $dur;
+	-o-transition-duration: $dur;
+	transition-duration: $dur;
+}
+
+@mixin webkitFix {
+	//-webkit-perspective: 0;
+	-webkit-backface-visibility: hidden;
+}
+
+@mixin userSelect($sel) {
+  	-webkit-user-select: $sel;
+  	-moz-user-select: $sel;
+  	-ms-user-select: $sel;
+  	-khtml-user-select: $sel;
+  	-o-user-select: $sel;
+  	user-select: $sel;
+}
+
+@mixin noTapHighlight {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-user-modify: read-write-plaintext-only;
+}
+
+@mixin borderRadius($rad) {
+	-webkit-border-radius: $rad;
+	-mox-border-radius: $rad;
+	border-radius: $rad;
+}
+
+@mixin boxSizing($bs) {
+	-webkit-box-sizing: $bs;
+	-moz-box-sizing: $bs;
+	box-sizing: $bs;
+}
+
+@mixin boxShadowInside {
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) inset;
+	-moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) inset;
+}
+@mixin boxShadowOutside {
+	-webkit-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.7);
+	box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.7);
+}
+@mixin boxShadowFooter {
+	-webkit-box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*
+ *	Media Directives
+ */
+
+/* Fonts */
+@font-face {
+	font-family: HelveticaNeue Cond;
+	src: $urlHelvetCond;
+}
+@font-face {
+	font-family: HelveticaNeue Bold;
+	src: $urlHelvetBold;
+}
+ 
+/*
+ * Structure
+ */
+html {
+	height: 100%;
+  	background: gray;
+}
+
+body {
+  	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	max-width: 100%;
+ 	margin: 0 auto;
+  	//@include userSelect(none);
+  	font-family: $helvet_cond, $helvet_bold;
+  	overfow: hidden;
+}	
+.bodyTouch {	
+  	@media only screen and (max-device-width: 360px) { font-size: 1em; }
+  	@media only screen and (min-device-width: 721px) {
+  		@media only screen and (orientation: portrait) { font-size: 2em; }
+  		@media only screen and (orientation: landscape) { font-size: 1.5em; }
+  	}
+  	@media only screen and (min-device-width: 361px) and (max-device-width: 720px) { font-size: 1.25em; }
+  	.page { min-height: 100%; }
+}
+.bodyDesktop {
+	padding-top: 30px;
+	overflow: hidden;
+	@include boxSizing(border-box);
+	font-size: 1.25em;
+}
+ 
+input {
+	&:required { border: 0; box-shadow: none; }
+	&:invalid { border: 0; box-shadow: none; }
+}
+
+input, select, textarea {
+	height: 2em;
+	line-height: 2em;
+	padding: 0;
+	padding-left: 0.4em;
+	border: 0;
+	@include borderRadius(0);
+	@include boxSizing(border-box);
+	vertical-align: middle;
+	font-size: 1em;
+}
+select {
+	height: 2.25em;
+	line-height: 2.25em;
+	@include boxSizing(border-box);
+}
+	 
+input[type="text"], input[type="number"] {
+	outline: none;
+	font-family: $helvet_cond;
+	background: $closetMaid_gray;
+	&:focus { background: $closetMaid_grayHighlight; }
+}
+
+@mixin noAppearance {
+	-webkit-appearance: none;
+	-moz-appearance: -moz-none;
+	appearance: none;
+}
+
+span {
+	margin-left: 0.1em;
+	font-family: $helvet_cond;
+	font-size: 0.9em;
+	color: $closetMaid_label;
+}
+
+img {
+	max-width: 100%;
+	background-repeat: no-repeat;
+}
+
+@mixin tableStuff {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 2.5em;
+	padding: 0;
+}
+table {
+	@include tableStuff;
+	span {
+		display: block;
+		overflow: hidden;
+		font-size: 1em;
+	}
+}
+tr { @include tableStuff; }
+td { @include tableStuff; }
+
+button {
+	border: 0;
+	background-size: contain;
+}
+
+a { -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+hr {
+	margin: 0;
+	color: $closetMaid_red;
+	background: $closetMaid_red;
+	border: 0;
+	height: 1px;
+}
+
+/*
+ * Classes
+ */
+.page {
+	position: absolute;
+	width: 100%;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	background: white;
+	@include webkitFix; 
+}
+
+.screenDesktop {
+	width: 800px;
+	max-height: 90%;
+	padding: 5px;
+	overflow: auto;
+	border: 3px solid white;
+	@include borderRadius(12px);
+	@include boxShadowInside;
+	@include boxShadowOutside;
+}
+
+.stage-center { @include transformTranslate(0px, 0); }
+.stage-left { /* @include transformTranslate(-200%, 0); */ }
+.stage-right { /* @include transformTranslate(200%, 0); */ }
+.transition { @include transition(0.3s); }
+.display-none { display: none; }
+.display-block { display: block; }
+
+.navButton {
+	height: 7.5em;
+	width: 90%;
+	display: block;
+	margin: 3% auto;
+	border: 0;
+}
+
+.content { margin: 0.5em; }
+
+.logo {
+	z-index: 8;
+	max-width: 60%;
+	margin-bottom: 2em;
+}
+.shelfArt, .hardwareArt {
+	position: absolute;
+	max-width: 40%;
+	top: 1em;
+	right: 0;
+	z-index: -1;
+}
+.hardwareArt {
+	top: 1.2em;
+	right: 0.5em;
+}
+
+.homeButton {
+	position: relative;
+	z-index: 10;
+	width: 3.3em;
+	height: 2em;
+	float: right;
+	border: 0;
+	background: $urlHomeBtn;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	&:active {
+		background: $urlHomeHighlightBtn;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+.backButton {
+	position: relative;
+	z-index: 10;
+	width: 3em;
+	height: 2em;
+	float: right;
+	border: 0;
+	background: $urlBackBtn;
+	background-size: contain;
+	background-repeat: no-repeat;
+	&:active {
+		background: $urlBackBtnHighlight;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	opacity: 0.8;
+}
+.redFunctionButton {
+	position: relative;
+	float: right;
+	top: 0.2em;
+	height: 1.85em;
+	max-width: 10em;
+	@include borderRadius(0.25em);
+	//border-top: 0.5em solid rgba(255, 255, 255, 1);
+	//border-bottom: 0.5em solid rgba(255, 255, 255, 1);
+	font-family: $helvet_bold;
+	font-size: 0.85em;
+	background: $closetMaid_red;
+	color: white;
+	&:active { background: $closetMaid_redHighlight; }
+}
+.trashButton {
+	float: right;
+	bottom: 0.5em;
+	right: 0.5em;
+	width: 8%;
+	height: 2em;
+	overflow: hidden;
+	display: block;
+	@include noAppearance;
+	background: $urlTrashBtn;
+	background-size: contain;
+	background-repeat: no-repeat;
+	&:active {
+		background: $urlTrashHighlightBtn;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+.trashTouch {
+	position: absolute;
+}
+.valueSelection {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	span {
+		margin-bottom: 0.7em;
+		display: block; 
+		overflow: hidden;
+	}
+}
+.picker {
+	/* 110% to make the firefox arrow overflow */
+	width: 110%;
+	overflow: hidden;
+	display: block;
+	vertical-align: middle;
+	@include noAppearance;
+	background-image: $urlArrow;
+	background-color: $closetMaid_gray;
+	background-size: auto 0.6em;
+	background-position: 89% 50%;
+	background-repeat: no-repeat;
+	font-family: $helvet_bold;
+	white-space: nowrap;
+}
+
+@mixin spans($paddingL, $paddingT) {
+	padding-left: $paddingL;
+	padding-top: $paddingT;
+	display: inline-block;
+	float: left;
+	font-family: $helvet_bold;
+	font-size: 0.5em;
+	color: black;
+}
+.qSpan { width: 25%; @include spans(0.5em, 2em); }
+.lSpan { width: 40%; @include spans(0.5em, 2em); }
+.l2Span { width: 20%; @include spans(0.5em, 1.3em); }
+
+.quantityText { 
+	width: 25%;
+	margin-right: 0.25em;
+	float: left;
+}
+.lengthText { width: 100%; }
+
+.locationSpan {
+	width: 40%;
+	margin-right: 0.25em;
+	float: left;
+}
+.locationPicker {
+	height: 2em;
+	line-height: 2em;
+	font-family: $helvet_cond;
+	background-position: 87% 50%;
+	background-repeat: no-repeat;
+}
+
+.resultsInfo {
+	margin-top: -0.5em;
+	span { 
+		display: block;
+		margin-bottom: 0.5em;
+	}
+}
+
+.gridrow {
+	width: 11em;
+	height: 1.5em;
+	margin: auto;
+	padding-top: 0.15em;
+	background-color: $closetMaid_gray;
+	overflow: hidden;
+}
+.title {
+	line-height: 1.5em;
+	float: left;
+	margin-left: 1em;
+}
+.value {
+	line-height: 1.5em;
+	float: right;
+	margin-right: 1em;
+}
+
+/*
+ * IDs
+ */
+#noscript-warning {
+	position: absolute;
+	z-index: 99;
+	width:100%;
+	height: 100%;
+	background-image: $urlNoJavascript;
+	background-repeat: no-repeat;
+	background-position: 50% 30px;
+	background-color: gray;
+}
+ 
+#HomeScreen { text-align: center; }
+#ShelvingCutCalculate {  }
+#ShelvingCutResults {  }
+
+
+/* Home Screen */
+#startClosetMaidLogo {
+	width: 80%;
+	margin: 0.5em auto;
+}
+#startShelvingCut {
+	background: $urlStartShelvingCut;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	&:active {
+		background: $urlStartShelvingCutHighlight;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+#startHardware { 
+	background: $urlStartHardware;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	&:active {
+		background: $urlStartHardwareHighlight;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+#startEmersonLogo {
+  	width: 30%;
+  	margin-top: 0.5em; }
+
+.startEmersonLogoDesktop {
+  	margin-left: -8%; }
+
+.startEmersonLogoTouch {
+  	position: absolute;
+  	bottom: 0.5em;
+  	left: 33%; }
+
+#settingsButton {
+  	position: relative;
+  	float: left;
+  	bottom: 0;
+  	left: 0.5em;
+  	width: 8%;
+	height: 2em;
+	overflow: hidden;
+	display: block;
+	@include noAppearance;
+	background: $urlSettingsBtn;
+	background-size: contain;
+	background-repeat: no-repeat;
+	&:active {
+		background: $urlSettingsHighlightBtn;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+.settingsTouch {
+	position: absolute;
+}
+
+/* Pop-up */
+#blanket {
+	background-color:#111;
+	opacity: 0.65;
+	*background: none;
+	position: absolute;
+	z-index: 9001;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+#popUpDiv {
+  	position: absolute;
+  	width: 50%;
+  	height: 10em;
+  	border: 1px black;
+  	-webkit-border-radius: 10px;
+  	-mox-border-radius: 10px;
+  	border-radius: 10px;
+  	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) inset;
+  	-moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) inset;
+  	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) inset;
+  	-webkit-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.7);
+  	-moz-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.7);
+  	box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.7);
+  	background: white;
+  	z-index: 9002; }
+
+#closeButton {
+  	position: absolute;
+  	top: 0.5em;
+  	right: 0.5em;
+  	width: 1.5em;
+  	height: 1.5em;
+	font-size: 0.7em;
+	overflow: hidden;
+	display: block;
+	@include noAppearance;
+	background: $urlCloseBtn;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#unitPopup {
+	padding-left: 1em;
+	padding-top: 10%;
+	text-align: left;
+	input { 
+		height: 1.5em; 
+		line-height: 1.5em;
+		border: 1px solid rgb(76, 76, 76);
+		border-radius: 0.4em; 
+	}
+}
+#unitPopupSpan { font-family: $helvet_bold; }
+
+/* ShelvingCut */
+#sizeSpan { 
+	width: 25%;
+	display: inline-block;
+	margin-right: 0.3em;
+	float: left;
+}
+
+#sizePicker {
+	background-position: 85% 50%;
+	background-repeat: no-repeat;
+}
+
+/* ShelvingCut Results */
+#sectionsSpan {
+	font-family: $helvet_bold;
+	color: black;
+}
+
+#howToSpan {
+	float: left;
+	margin-right: 0.5em;
+	margin-top: 0.2em;
+}
+
+#red_line {
+	width: 5%;
+	height: 0.13em;
+	display: inline-block;
+	visibility: hidden;
+	background: $closetMaid_red;
+	text-align: center;
+}
+#cutoutSpan { 
+	display: inline-block;
+	visibility: hidden;
+	font-size: 0.8em;
+	color: gray;
+}
+
+#drawingDiv { 
+	width: 100%;
+	height: 70%;
+	margin-top: 0.5em;
+	@include boxSizing(border-box);
+}
+
+#moreFooter {
+	position: relative;
+	width: 55%;
+	bottom: .5em;
+	text-align: center;
+}
+
+#moreBtn {
+	max-width: 10em;
+	@include borderRadius(0.25em);
+	font-family: $helvet_bold;
+	font-size: 0.8em;
+	background: $closetMaid_red;
+	color: white;
+	text-align: center;
+	&:active { background: $closetMaid_redHighlight; }
+}
+
+
+/* Hardware */
+/* Hardware Results */
+#hardwareNeeds {
+	display: block;
+	margin-bottom: 1em;
+	padding-left: 2em;
+}
+
+#roundedDiv {
+	width: 11em;
+	height: 8.6em;
+	overflow: hidden;
+	border: 0.1em solid $closetMaid_red;
+	@include borderRadius(0.5em);
+	margin: auto;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	background-color: $closetMaid_gray;
+}
+
+#hardwareEmailBtn {
+	display: block;
+	margin: auto;
+	margin-left: 50%;
+	float: none;
+}

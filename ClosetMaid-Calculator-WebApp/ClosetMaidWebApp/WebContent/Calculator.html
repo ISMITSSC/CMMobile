@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ClosetMaid Shelving Tools</title>
+        
+        <meta charset='UTF-8'/>
+        <!--apple-->
+        <meta name='apple-mobile-web-app-capable' content='yes'/>
+        <meta name='apple-mobile-web-app-status-bar-style' content='black'/>
+        <meta name="apple-itunes-app" content="app-id=616726528">
+        <!-- Icons -->
+		<link rel='apple-touch-icon-precomposed' sizes='114x114' href='Resources/iOS-114.png' />
+		<link rel='apple-touch-icon-precomposed' href='Resources/iOS-57.png' />
+		<link rel='icon' href='Resources/iOS-57.png' />
+		<!-- Viewport -->
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'/>
+        <!--style-->
+        <link rel='stylesheet' type='text/css' href='Styles/sheet.css'/>
+        <style type='text/css'></style>
+        <!--script-->
+        <script type='text/javascript' >
+    		(function() {
+		    	var c = document.createElement('canvas');
+		    	var supportsCanvas = !!c.getContext;
+		    	var supportsCanvasText = c.getContext && typeof c.getContext('2d').fillText == 'function';
+		    	
+		    	var Detect = (function() {
+		    		var
+		    			props = 'boxSizing,boxShadow,borderRadius,transform,transition'.split(','),
+		    			CSSprefix = 'Webkit,Moz,O,ms,Khtml'.split(','),
+		    			d = document.createElement('detect'),
+		    			test = [],
+		    			p, pty;
+		    		// test prefixed code
+		    		function TestPrefixes(prop) {
+		    			var
+		    				Uprop = prop.charAt(0).toUpperCase() + prop.substr(1),
+		    				All = (prop + ' ' + CSSprefix.join(Uprop + ' ') + Uprop).split(' ');
+		    			for (var n = 0, np = All.length; n < np; n++) {
+		    				if (d.style[All[n]] === '') return true;
+		    			}
+		    	        return false;
+		    		}
+		    		for (p in props) {
+		    			pty = props[p];
+		    			test[pty] = TestPrefixes(pty);
+		    		}
+		    		return test;
+		    	}());
+		    	
+		    	if (!(supportsCanvas && supportsCanvasText && 
+		    			Detect.boxSizing && Detect.transform && Detect.transition)) {
+		       		window.location = 'NoSupport.html';
+		    	}
+        	});
+    		
+        	window.addEventListener('load', function() {
+        		new FastClick(document.body);
+        	}, false);
+        </script>
+        
+        <script type='text/javascript' src='Scripts/script.js'></script>
+        <script type='text/javascript' src='Scripts/transitions.js'></script>
+        <script type='text/javascript' src='Scripts/BigDecimal-all-last.min.js'></script>
+        <script type='text/javascript' src='Scripts/drawing.js'></script>
+        <script type='text/javascript' src='Scripts/hardware.js'></script>
+        <script type='text/javascript' src='Scripts/inputHandling.js'></script>
+        <script type='text/javascript' src='Scripts/fastclick.js'></script>
+        <script type='text/javascript' src='Scripts/css-pop.js'></script>
+        
+    </head>
+    
+    <body onresize='draw()' ontouchstart='' onselectreturn='false' unselectable='on' >
+    
+    <noscript>
+    	<div id='noscript-warning'>
+    	</div>
+	</noscript>
+	
+	<div id='HomeScreen' class='page stage-center'>
+		<img id='startClosetMaidLogo' src='Resources/Images/logo-StartScreen.png' alt='ClosetMaid Start logo'>
+		<a id='startShelvingCut' class='navButton' onclick='slideIn("HomeScreen", "ShelvingCutCalculate")'></a>
+		<a id='startHardware' class='navButton' onclick='slideIn("HomeScreen", "HardwareCalculate")'></a>
+        <div id='blanket' style='display:none'></div>
+		<div id='popUpDiv' style='display:none'>
+			<div id='unitPopup'>
+				<span id='unitPopupSpan'>Unit of measurement:</span>
+				<br><br>
+		        <input id='imperialUnit' type='radio' name='unit' value='imperial' checked><label for='imperialUnit' onclick='document.getElementById("imperialUnit").checked = true;'><span>Imperial</span></label>
+		        <br>
+		        <div style='padding-top:0.5em;'>
+		        <input id='metricUnit' type='radio' name='unit' value='metric'><label for='metricUnit' onclick='document.getElementById("metricUnit").checked = true'><span>Metric</span></label>
+		        </div>
+			</div>
+			<a id='closeButton' onclick='popup("popUpDiv")'></a>
+		</div>
+		<a id='settingsButton' onclick='popup("popUpDiv")'></a>
+		<img id='startEmersonLogo' src='Resources/Images/logo-Emerson.png' alt='Emerson logo'>
+	</div>
+        
+        
+    <!-- SHELVING CUT -->
+    <div id='ShelvingCutCalculate' class='page stage-right display-none'>
+    	<div class='content'>
+            <img class='logo' src='Resources/Images/logo-ClosetMaid.png' alt='ClosetMaid logo'>
+            <img class='shelfArt' src='Resources/Images/art-Shelving.png' alt='Shelving art'>
+        	<a class='homeButton' onclick='slideOut()'></a>
+            <div class='valueSelection'>
+            	<span>Type of Shelving You Have:</span>
+                <span id='sizeSpan'>
+	                <select id='sizePicker' class='picker' onchange="onShelfDimChange()">
+	                    <option selected value='48'>48"</option>
+	                    <option value='72'>72"</option>
+	                    <option value='96'>96"</option>
+	                    <option value='144'>144"</option>
+	                </select>
+                </span>
+                <span>
+					<select id='shelfPicker' class='picker'>
+	                    <option selected value='superslide'>SuperSlide&reg, Close Mesh and Linen</option>
+	                    <option value='totalslide'>TotalSlide&reg and Shelf &amp Rod</option>
+	                </select>
+                </span>
+            </div>
+            <div>
+                <span>Shelving Lengths Needed:</span>
+            	<button class='redFunctionButton' onclick='slideIn("ShelvingCutCalculate", "ShelvingCutResults")'>Calculate Cuts</button>
+            	<br>
+                <span class='qSpan'>QUANTITY</span>
+                <span class='lSpan'>LENGTH</span>
+            </div>
+            <table id='shelvingTable' class='sectionsTable'></table>
+        	<a id='shelvingTrash' class='trashButton' onclick='clearRows("shelvingTable")'></a>
+       </div>
+    </div>
+    
+    <div id='ShelvingCutResults' class ='page stage-right display-none'>
+        <div class='content'>
+            <img class='logo' src='Resources/Images/logo-ClosetMaid.png' alt='ClosetMaid logo'>
+            <img class='shelfArt' src='Resources/Images/art-Shelving.png' alt='Shelving art'>
+        	<a class='backButton' onclick='slideOut()'></a>
+            <div class='resultsInfo'>
+                <span>What You Will Need:</span>
+            	<button class='redFunctionButton' onclick='emailShelvingCuts()'>Email Cuts</button>
+    			<span id='sectionsSpan'>Sections of Shelving</span>
+	            <span id='wasteSpan'></span>
+	        	<span id='howToSpan'>How To Cut It:</span>
+	            <div id='red_line'></div>
+	            <span id='cutoutSpan'>Cut Out Downrod Section</span>
+            </div>
+            <div id='drawingDiv'></div>
+        </div>
+        <div id='moreFooter'>
+            <button id='moreBtn' onclick='showMore()'>Show more...</button>
+        </div>
+	</div>    
+        
+        
+    <!-- HARDWARE -->
+    <div id='HardwareCalculate' class='page stage-right display-none'>
+        <div class='content'>
+            <img class='logo' src='Resources/Images/logo-ClosetMaidHardwareCalc.png' alt='ClosetMaid logo'>
+            <img class='hardwareArt' src='Resources/Images/art-Hardware.png' alt='Hardware art'>
+        	<a class='homeButton' onclick='slideOut()'></a>
+            <div class='valueSelection'>
+            	<span>Type of Shelving You Have:</span>
+                <span>
+					<select id='hardwareShelfPicker' class='picker'>
+	                    <option selected value='superslide12'>12" SuperSlide or Closemesh</option>
+	                    <option value='superslide16'>16" SuperSlide or Closemesh</option>
+	                    <option value='closemesh'>20" Closemesh</option>
+	                    <option value='shelfrod12'>12" Shelf & Rod</option>
+	                    <option value='shelfrod16'>16" Shelf & Rod</option>
+	                </select>
+                </span>
+            </div>
+            <div>
+                <span>Shelving Lengths Needed:</span>
+            	<button class='redFunctionButton' onclick='slideIn("HardwareCalculate", "HardwareResults")'>Calculate</button>
+                <br>
+                <span class='qSpan'>QUANTITY</span>
+                <span class='lSpan'>SHELF LOCATION</span>
+                <span class='l2Span'>SHELF LENGTH</span>
+            </div>
+            <table id='hardwareTable' class='sectionsTable'></table>
+        	<a id='hardwareTrash' class='trashButton' onclick='clearRows("hardwareTable")'></a>
+        </div>
+    </div>
+    
+    <div id='HardwareResults' class ='page stage-right display-none'>
+        <div class='content'>
+            <img class='logo' src='Resources/Images/logo-ClosetMaidHardwareCalc.png' alt='ClosetMaid logo'>
+            <img class='hardwareArt' src='Resources/Images/art-Hardware.png' alt='Hardware art'>
+        	<a class='backButton' onclick='slideOut()'></a>
+            <span id='hardwareNeeds'>What You Will Need:</span>
+           	<div class='gridrow'><span class='title'>Hardware</span><span class='value'>Quantity</span></div>
+           	<div id='roundedDiv'>
+           		<div class='gridrow'>
+           			<span id='hardwareNeedsTitle1' class='title'></span>
+           			<span id='hardwareNeedsValue1' class='value'></span>
+           		</div>
+           		<hr>
+           		<div class='gridrow'>
+           			<span id='hardwareNeedsTitle2' class='title'>Support Brackets</span>
+           			<span id='hardwareNeedsValue2' class='value'></span>
+           		</div>
+           		<hr>
+           		<div class='gridrow'>
+           			<span id='hardwareNeedsTitle3' class='title'>Wall Brackets</span>
+           			<span id='hardwareNeedsValue3' class='value'></span>
+           		</div>
+           		<hr>
+           		<div class='gridrow'>
+           			<span id='hardwareNeedsTitle4' class='title'></span>
+           			<span id='hardwareNeedsValue4' class='value'></span>
+           		</div>
+           		<hr>
+           		<div class='gridrow'>
+           			<span id='hardwareNeedsTitle5' class='title'></span>
+           			<span id='hardwareNeedsValue5' class='value'></span>
+           		</div>
+           	</div>
+           	<button id='hardwareEmailBtn' class='redFunctionButton' onclick='emailHardware()'>Email List</button>
+        </div>
+	</div>
+        
+</body>
+    
+</html>

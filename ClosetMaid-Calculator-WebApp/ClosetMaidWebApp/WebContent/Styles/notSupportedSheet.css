@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url('../Resources/Images/browser_not_supported.png');;
+	background-repeat: no-repeat;
+	background-position: 50% 30px;
+	background-color: gray;
+}

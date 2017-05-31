@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tss="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" > -->
+<com.ridgid.softwaresolution.closetmaid.views.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tss="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true" >
+
+    <com.ridgid.softwaresolution.closetmaid.views.SpecialRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lay_master"
+        android:background="@color/white" >
+
+        <com.tss.views.TSSView
+            android:id="@+id/view_logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp5_s"
+            android:background="@drawable/logo_closetmaid2x"
+            tss:tss_scaleMode="byWidth"
+            tss:tss_width="0.59" />
+
+        <com.tss.views.TSSView
+            android:id="@+id/pct_shelf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/art_shelving2x"
+            tss:tss_scaleMode="byWidth"
+            tss:tss_width="0.4"
+            tss:tss_x="0.6" />
+
+        <!--
+             <Button
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10_s"
+            android:layout_marginRight="@dimen/dp10_s"
+            android:layout_alignParentRight="true"/>
+        -->
+
+        <EditText
+            android:id="@+id/edt_afriendinneed"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/lbl_shelvingtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pct_shelf"
+            android:layout_marginBottom="@dimen/dp5_s"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp5_s"
+            android:gravity="center_vertical"
+            android:text="@string/type_of_shelving"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15_s" />
+
+        <com.tss.views.TSSSpinner
+            android:id="@+id/spnr_sizes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_shelvingtype"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:background="@color/application_gray"
+            android:dropDownSelector="@color/application_gray"
+            android:overScrollMode="never"
+            android:padding="@dimen/dp5_s"
+            android:popupBackground="@color/application_gray"
+            tss:tss_width="0.22" />
+
+        <Spinner
+            android:id="@+id/spnr_shelving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_shelvingtype"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginRight="@dimen/dp5_s"
+            android:layout_toRightOf="@+id/spnr_sizes"
+            android:background="@color/application_gray"
+            android:dropDownSelector="@color/application_gray"
+            android:overScrollMode="never"
+            android:padding="@dimen/dp5_s"
+            android:popupBackground="@color/application_gray" />
+
+        <TextView
+            android:id="@+id/lbl_shelvingneeded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spnr_sizes"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp15_s"
+            android:gravity="left"
+            android:text="@string/add_shelving"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15_s" />
+
+        <com.tss.views.TSSButton
+            android:id="@+id/btn_calculate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/lbl_shelvingneeded"
+            android:layout_marginBottom="@dimen/dp10_s"
+            android:layout_marginRight="@dimen/dp5_s"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/btn_switch_selector"
+            android:paddingBottom="@dimen/dp4_s"
+            android:paddingLeft="@dimen/dp2_s"
+            android:paddingRight="@dimen/dp2_s"
+            android:paddingTop="@dimen/dp4_s"
+            android:text="@string/calculate"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp13_s"
+            tss:tss_width="0.33" />
+
+        <com.tss.views.TSSTextView
+            android:id="@+id/txtquantityhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_shelvingneeded"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp10_s"
+            android:text="@string/quantity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp10_s"
+            android:textStyle="bold"
+            tss:tss_width="0.3" />
+
+        <TextView
+            android:id="@+id/txtlenghthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txtquantityhead"
+            android:layout_below="@+id/lbl_shelvingneeded"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginRight="@dimen/dp5_s"
+            android:layout_toRightOf="@+id/txtquantityhead"
+            android:text="@string/lenght"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp10_s"
+            android:textStyle="bold" />
+
+        <com.ridgid.softwaresolution.closetmaid.views.InnerScrollListView
+            android:id="@+id/list_inputs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/txtlenghthead"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginRight="@dimen/dp5_s"
+            android:divider="@color/white"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="@dimen/dp5_s" />
+
+        <com.tss.views.TSSButton
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+             android:layout_marginRight="@dimen/dp10_s"
+            android:layout_marginBottom="@dimen/dp15_s"
+            android:background="@drawable/btn_trash_selector"
+            tss:tss_scaleMode="byWidth"
+            tss:tss_width="0.1" />
+    </com.ridgid.softwaresolution.closetmaid.views.SpecialRelativeLayout>
+<!-- </RelativeLayout> -->
+</com.ridgid.softwaresolution.closetmaid.views.CustomScrollView>

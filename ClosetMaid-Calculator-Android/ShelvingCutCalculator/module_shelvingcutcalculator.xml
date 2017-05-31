@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_shelvingcutcalculator" default="compile.module.shelvingcutcalculator">
+  <dirname property="module.shelvingcutcalculator.basedir" file="${ant.file.module_shelvingcutcalculator}"/>
+  
+  <property name="module.jdk.home.shelvingcutcalculator" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.shelvingcutcalculator" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.shelvingcutcalculator" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.shelvingcutcalculator" value="${compiler.args}"/>
+  
+  <property name="shelvingcutcalculator.output.dir" value="${module.shelvingcutcalculator.basedir}/bin/classes"/>
+  <property name="shelvingcutcalculator.testoutput.dir" value="${module.shelvingcutcalculator.basedir}/bin/classes"/>
+  
+  <path id="shelvingcutcalculator.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="shelvingcutcalculator.module.production.classpath">
+    <path refid="${module.jdk.classpath.shelvingcutcalculator}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="shelvingcutcalculator.runtime.production.module.classpath">
+    <pathelement location="${shelvingcutcalculator.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="shelvingcutcalculator.module.classpath">
+    <path refid="${module.jdk.classpath.shelvingcutcalculator}"/>
+    <pathelement location="${shelvingcutcalculator.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="shelvingcutcalculator.runtime.module.classpath">
+    <pathelement location="${shelvingcutcalculator.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.shelvingcutcalculator">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.shelvingcutcalculator">
+    <patternset refid="excluded.from.module.shelvingcutcalculator"/>
+  </patternset>
+  
+  <path id="shelvingcutcalculator.module.sourcepath">
+    <dirset dir="${module.shelvingcutcalculator.basedir}">
+      <include name="src"/>
+      <include name="gen"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.shelvingcutcalculator" depends="compile.module.shelvingcutcalculator.production,compile.module.shelvingcutcalculator.tests" description="Compile module ShelvingCutCalculator"/>
+  
+  <target name="compile.module.shelvingcutcalculator.production" depends="register.custom.compilers" description="Compile module ShelvingCutCalculator; production classes">
+    <mkdir dir="${shelvingcutcalculator.output.dir}"/>
+    <javac2 destdir="${shelvingcutcalculator.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.shelvingcutcalculator}/javac">
+      <compilerarg line="${compiler.args.shelvingcutcalculator}"/>
+      <bootclasspath refid="shelvingcutcalculator.module.bootclasspath"/>
+      <classpath refid="shelvingcutcalculator.module.production.classpath"/>
+      <src refid="shelvingcutcalculator.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.shelvingcutcalculator"/>
+    </javac2>
+    
+    <copy todir="${shelvingcutcalculator.output.dir}">
+      <fileset dir="${module.shelvingcutcalculator.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.shelvingcutcalculator.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.shelvingcutcalculator.tests" depends="register.custom.compilers,compile.module.shelvingcutcalculator.production" description="compile module ShelvingCutCalculator; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.shelvingcutcalculator" description="cleanup module">
+    <delete dir="${shelvingcutcalculator.output.dir}"/>
+    <delete dir="${shelvingcutcalculator.testoutput.dir}"/>
+  </target>
+</project>

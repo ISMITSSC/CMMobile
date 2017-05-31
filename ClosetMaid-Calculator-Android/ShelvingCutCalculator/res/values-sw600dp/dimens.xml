@@ -1,0 +1,54 @@
+<resources>
+
+     <dimen name="magnifier">0.5dp</dimen>    
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- _s - size for normal hdpi 4-5inch smartphone -->
+    <dimen name="dp_200_s">-400dp</dimen>
+    <dimen name="dp_265_s">-530dp</dimen>
+    <dimen name="dp_300_s">-600dp</dimen>
+    <dimen name="dp0.5_s">1dp</dimen>
+    <dimen name="dp1_s">2dp</dimen>
+    <dimen name="dp2_s">4dp</dimen>
+    <dimen name="dp3_s">6dp</dimen>
+    <dimen name="dp4_s">8dp</dimen>
+    <dimen name="dp5_s">10dp</dimen>
+    <dimen name="dp6_s">12dp</dimen>
+    <dimen name="dp7_s">14dp</dimen>
+    <dimen name="dp8_s">16dp</dimen>
+    <dimen name="dp9_s">18dp</dimen>
+    <dimen name="dp10_s">20dp</dimen>
+    <dimen name="dp11_s">22dp</dimen>
+    <dimen name="dp12_s">24dp</dimen>
+    <dimen name="dp13_s">26dp</dimen>
+    <dimen name="dp14_s">28dp</dimen>
+    <dimen name="dp15_s">30dp</dimen>
+    <dimen name="dp18_s">36dp</dimen>
+    <dimen name="dp20_s">40dp</dimen>
+    <dimen name="dp25_s">50dp</dimen>
+    <dimen name="dp30_s">60dp</dimen>
+    <dimen name="dp35_s">70dp</dimen>
+    <dimen name="dp40_s">80dp</dimen>
+    <dimen name="dp45_s">90dp</dimen>
+    <dimen name="dp50_s">100dp</dimen>
+    <dimen name="dp60_s">120dp</dimen>
+    <dimen name="dp62_s">124dp</dimen>
+    <dimen name="dp65_s">130dp</dimen>
+    <dimen name="dp70_s">140dp</dimen>
+    <dimen name="dp80_s">160dp</dimen>
+    <dimen name="dp90_s">180dp</dimen>
+    <dimen name="dp100_s">200dp</dimen>
+    <dimen name="dp130_s">260dp</dimen>
+    <dimen name="dp150_s">300dp</dimen>
+    <dimen name="dp200_s">400dp</dimen>
+    <dimen name="dp265_s">530dp</dimen>
+    <dimen name="dp300_s">600dp</dimen>
+    <dimen name="dp330_s">660dp</dimen>
+    <dimen name="dp360_s">720dp</dimen>
+    <dimen name="dp380_s">760dp</dimen>
+    <dimen name="dp400_s">800dp</dimen>
+
+</resources>
