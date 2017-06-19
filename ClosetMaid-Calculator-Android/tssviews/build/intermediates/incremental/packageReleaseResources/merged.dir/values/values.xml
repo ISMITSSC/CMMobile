@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="tss_attributes"><attr format="float" name="tss_x"/><attr format="float" name="tss_y"/><attr format="float" name="tss_originX"/><attr format="float" name="tss_originY"/><attr format="float" name="tss_width"/><attr format="float" name="tss_height"/><attr format="enum" name="tss_scaleMode">
+           <enum name="none" value="0"/>
+           <enum name="byWidth" value="1"/>
+           <enum name="byHeight" value="2"/>
+           <enum name="byParentWidth" value="3"/>
+           <enum name="byParentHeight" value="4"/>
+           <enum name="byXY" value="5"/>
+       </attr></declare-styleable>
+    <string name="app_name">TSSViews</string>
+</resources>

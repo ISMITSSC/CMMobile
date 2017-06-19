@@ -1,0 +1,132 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/ant.xml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ShelvingCutCalculator.iml
+* ic_launcher-web.png
+* module_shelvingcutcalculator.xml
+* out/
+* out/production/
+* out/production/ShelvingCutCalculator/
+* out/production/ShelvingCutCalculator/ShelvingCutCalculator.afp.apk
+* out/production/ShelvingCutCalculator/ShelvingCutCalculator.apk
+* out/production/ShelvingCutCalculator/ShelvingCutCalculator.unaligned.apk
+* out/production/ShelvingCutCalculator/com/
+* out/production/ShelvingCutCalculator/com/example/
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/BuildConfig.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/MainActivity.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$array.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$attr.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$color.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$drawable.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$id.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$layout.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$menu.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$string.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R$style.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/R.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/CuttingView.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/InputAdapter$1.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/InputAdapter$2.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/InputAdapter$InputHolder.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/InputAdapter.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/Measures.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/ResultAdapter$ResultHolder.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/ResultAdapter.class
+* out/production/ShelvingCutCalculator/com/example/shelvingcutcalculator/tools/Shelf.class
+* out/production/ShelvingCutCalculator/fragments/
+* out/production/ShelvingCutCalculator/fragments/InputFragments$1.class
+* out/production/ShelvingCutCalculator/fragments/InputFragments$2.class
+* out/production/ShelvingCutCalculator/fragments/InputFragments$3.class
+* out/production/ShelvingCutCalculator/fragments/InputFragments.class
+* out/production/ShelvingCutCalculator/fragments/ResultsFragment.class
+* out/res-cache/
+* out/res-cache/ShelvingCutCalculator/
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/art_shelving.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/art_shelving2x.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/ic_launcher.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/icon_addbutton2x.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/icon_addbutton_highlighted2x.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/icon_rightarrow2x.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/logo_closetmaid.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/logo_closetmaid2x.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/plus.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/right.png
+* out/res-cache/ShelvingCutCalculator/drawable-hdpi/right_sign.png
+* out/res-cache/ShelvingCutCalculator/drawable-ldpi/
+* out/res-cache/ShelvingCutCalculator/drawable-ldpi/ic_launcher.png
+* out/res-cache/ShelvingCutCalculator/drawable-ldpi/plus.png
+* out/res-cache/ShelvingCutCalculator/drawable-ldpi/right_sign.png
+* out/res-cache/ShelvingCutCalculator/drawable-mdpi/
+* out/res-cache/ShelvingCutCalculator/drawable-mdpi/ic_launcher.png
+* out/res-cache/ShelvingCutCalculator/drawable-mdpi/plus.png
+* out/res-cache/ShelvingCutCalculator/drawable-mdpi/right_sign.png
+* out/res-cache/ShelvingCutCalculator/drawable-xhdpi/
+* out/res-cache/ShelvingCutCalculator/drawable-xhdpi/ic_launcher.png
+* out/res-cache/ShelvingCutCalculator/drawable-xhdpi/plus.png
+* out/res-cache/ShelvingCutCalculator/drawable-xhdpi/right_sign.png
+* proguard-project.txt
+* shelvingcutcalculator.properties
+* shelvingcutcalculator.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/exploded-aar/ClosetMaid-Calculator-Android/tssviews/unspecified/res/drawable-xxhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/exploded-aar/ShelvingCutCalculator/tssviews/unspecified/res/drawable-xxhdpi-v4/ic_launcher.png"
+    }
+]

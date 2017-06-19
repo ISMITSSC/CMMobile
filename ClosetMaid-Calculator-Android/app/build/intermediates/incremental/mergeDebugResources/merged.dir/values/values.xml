@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="hardware_large_end_caps">
+            <item>0</item>
+            <item>0</item>
+            <item>0</item>
+            <item>4</item>
+            <item>4</item>
+        </integer-array>
+    <string-array name="hardware_needed_names">
+            <item>Large End Caps</item>
+            <item>Small End Caps</item>
+            <item>Support Brackets</item>
+            <item>Wall Brackets</item>
+            <item>Wall Clips</item>
+        </string-array>
+    <string-array name="hardware_shelf_dimm_cm">
+            <item>30.48cm</item>
+            <item>40.64cm</item>
+            <item>50.8cm</item>
+        </string-array>
+    <string-array name="hardware_shelf_dimm_inch">
+            <item>12\"</item>
+            <item>16\"</item>
+            <item>20\"</item>
+        </string-array>
+    <string-array name="hardware_shelf_location">
+            <item>Wall-to-Wall</item>
+            <item>Wall-to-Open</item>
+            <item>Open-to-Open</item>
+        </string-array>
+    <string-array name="hardware_shelving_type">
+            <item>SuperSlide or Closemesh</item>
+            <item>Closemesh</item>
+            <item>Shelf &amp; Rod</item>
+        </string-array>
+    <integer-array name="hardware_small_end_caps">
+            <item>8</item>
+            <item>10</item>
+            <item>10</item>
+            <item>4</item>
+            <item>6</item>
+        </integer-array>
+    <integer-array name="hardware_support_brackest">
+            <item>0</item>
+            <item>1</item>
+            <item>2</item>
+        </integer-array>
+    <integer-array name="hardware_wall_brackest">
+            <item>2</item>
+            <item>1</item>
+            <item>0</item>
+        </integer-array>
+    <string-array name="harware_needed_type_association">
+             <item>0|0</item>
+             <item>1|0</item>
+             <item>2|1</item>
+             <item>0|2</item>
+             <item>1|2</item>
+         </string-array>
+    <string-array name="measurement_unit">
+            <item>Imperial</item>
+            <item>Metric</item>
+        </string-array>
+    <string-array name="shelving_dimm_cm">
+            <item>121.92cm</item>
+            <item>182.88cm</item>
+            <item>243.84cm</item>
+            <item>365.76cm</item>
+        </string-array>
+    <string-array name="shelving_dimm_inch">
+            <item>48\"</item>
+            <item>72\"</item>
+            <item>96\"</item>
+            <item>144\"</item>
+        </string-array>
+    <string-array name="shelving_type_array">
+            <item>SuperSlide®, CloseMesh and Linen</item>
+            <item>TotalSlide® and Shelf &amp; Road </item>
+        </string-array>
+    <color name="application_gray">#edefee</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#ffe3e3e3</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#01000000</color>
+    <color name="very_ligth_gray">#ffd3d3d3</color>
+    <color name="white">#FFFFFFFF</color>
+    <declare-styleable name="tss_attributes"><attr format="float" name="tss_x"/><attr format="float" name="tss_y"/><attr format="float" name="tss_originX"/><attr format="float" name="tss_originY"/><attr format="float" name="tss_width"/><attr format="float" name="tss_height"/><attr format="enum" name="tss_scaleMode">
+           <enum name="none" value="0"/>
+           <enum name="byWidth" value="1"/>
+           <enum name="byHeight" value="2"/>
+           <enum name="byParentWidth" value="3"/>
+           <enum name="byParentHeight" value="4"/>
+           <enum name="byXY" value="5"/>
+       </attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="canvas_lines">2px</dimen>
+    <dimen name="dp0.5_s">0.5dp</dimen>
+    <dimen name="dp100_s">100dp</dimen>
+    <dimen name="dp10_s">10dp</dimen>
+    <dimen name="dp11_s">11dp</dimen>
+    <dimen name="dp12_s">12dp</dimen>
+    <dimen name="dp130_s">130dp</dimen>
+    <dimen name="dp13_s">13dp</dimen>
+    <dimen name="dp14_s">14dp</dimen>
+    <dimen name="dp150_s">150dp</dimen>
+    <dimen name="dp15_s">15dp</dimen>
+    <dimen name="dp18_s">18dp</dimen>
+    <dimen name="dp1_s">1dp</dimen>
+    <dimen name="dp200_s">200dp</dimen>
+    <dimen name="dp20_s">20dp</dimen>
+    <dimen name="dp25_s">25dp</dimen>
+    <dimen name="dp265_s">265dp</dimen>
+    <dimen name="dp2_s">2dp</dimen>
+    <dimen name="dp300_s">300dp</dimen>
+    <dimen name="dp30_s">30dp</dimen>
+    <dimen name="dp330_s">330dp</dimen>
+    <dimen name="dp35_s">35dp</dimen>
+    <dimen name="dp360_s">360dp</dimen>
+    <dimen name="dp380_s">380dp</dimen>
+    <dimen name="dp3_s">3dp</dimen>
+    <dimen name="dp400_s">400dp</dimen>
+    <dimen name="dp40_s">40dp</dimen>
+    <dimen name="dp45_s">45dp</dimen>
+    <dimen name="dp4_s">4dp</dimen>
+    <dimen name="dp50_s">50dp</dimen>
+    <dimen name="dp5_s">5dp</dimen>
+    <dimen name="dp60_s">60dp</dimen>
+    <dimen name="dp62_s">62dp</dimen>
+    <dimen name="dp65_s">65dp</dimen>
+    <dimen name="dp6_s">6dp</dimen>
+    <dimen name="dp70_s">70dp</dimen>
+    <dimen name="dp7_s">7dp</dimen>
+    <dimen name="dp80_s">80dp</dimen>
+    <dimen name="dp8_s">8dp</dimen>
+    <dimen name="dp90_s">90dp</dimen>
+    <dimen name="dp9_s">9dp</dimen>
+    <dimen name="dp_200_s">-200dp</dimen>
+    <dimen name="dp_265_s">-265dp</dimen>
+    <dimen name="dp_300_s">-300dp</dimen>
+    <dimen name="magnifier">1dp</dimen>
+    <dimen name="rounding_radius">4px</dimen>
+    <string name="add_shelving">Shelving Lengths Needed:</string>
+    <string name="app_name">Shelf Tools</string>
+    <string name="calculate">Calculate Cuts</string>
+    <string name="clear_data_message">Are you sure you want to clear the data?</string>
+    <string name="delete">Delete</string>
+    <string name="downrod">Cut Out Downrod Section</string>
+    <string name="email">Email Cuts</string>
+    <string name="email_closet_job_number">ClosetMaid Job: </string>
+    <string name="email_downrod">downrod</string>
+    <string name="email_hardware">Hardware Calculator</string>
+    <string name="email_list">Email List</string>
+    <string name="email_shelving_cut_calculator">Shelving Cut Calculator</string>
+    <string name="email_total_excess_shelving">Total Excess Shelving: </string>
+    <string name="enter_data_message">Please enter at least one cut.</string>
+    <string name="enter_job">Enter a Job Number</string>
+    <string name="excess">Excess Shelving: </string>
+    <string name="hardware">Hardware</string>
+    <string name="hardware_calculate">Calculate</string>
+    <string name="hardware_enter_data_message">Please enter at least one shelf.</string>
+    <string name="hardware_quantity">Quantity</string>
+    <string name="hardware_quantity_exceded">Maximum quantity exceeded</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">Home</string>
+    <string name="how_to_cut">How To Cut It: </string>
+    <string name="job">Job Number: </string>
+    <string name="large_end_caps">Large End Caps</string>
+    <string name="lenght">LENGTH</string>
+    <string name="length_max_warning_message">The specified length does not fall within the expected range.</string>
+    <string name="maxImperialLenght">144</string>
+    <string name="maxMetricLength">365.76</string>
+    <string name="menu_settings">Settings</string>
+    <string name="minImperialLength">12</string>
+    <string name="minMetricLength">30.48</string>
+    <string name="no">No</string>
+    <string name="overflow_warning_message">The maximum allowed number of total pieces is 1000.</string>
+    <string name="preparing_email">Preparing e-mail content...</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="quit_app_message">Are you you want to exit?</string>
+    <string name="save">Save</string>
+    <string name="sections">Sections of Shelving</string>
+    <string name="shelf">Shelf</string>
+    <string name="shelf_length">SHELF LENGTH</string>
+    <string name="shelf_location">SHELF LOCATION</string>
+    <string name="small_end_cap">Small End Caps</string>
+    <string name="support_bracket">Support Brackets</string>
+    <string name="switch_imperial">Switch to Imperial</string>
+    <string name="type_of_shelving">Type of Shelving You Have:</string>
+    <string name="wall_brackets">Wall Brackets</string>
+    <string name="wall_clips">Wall Clips</string>
+    <string name="waste">waste</string>
+    <string name="what_you_need">What You Will Need:</string>
+    <string name="yes">Yes</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="margin_style">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="margin_top">
+         <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="noTitleBar" parent="android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>

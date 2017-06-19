@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/result_hardware.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/result_hardware.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/hardware_table_row.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/hardware_table_row.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/input_layout2.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/input_layout2.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/result_layout.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/result_layout.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/result_hardware.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/result_hardware.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/shelving_cut_calculator.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/shelving_cut_calculator.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/btn_delete.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/btn_delete.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/btn_delete.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/btn_delete.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/input_row.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/input_row.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/spinner_dropdown.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/input_layout2.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/input_layout2.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/spinner_item.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/shelving_cut_calculator.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/shelving_cut_calculator.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/hardware_table_row.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/hardware_table_row.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/input_row.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/input_row.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/input_hardware.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/input_hardware.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/result_layout.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/result_layout.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/spinner_dropdown.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/input_row_hardware.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/input_row_hardware.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/input_row_hardware.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/input_row_hardware.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/layout/input_hardware.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/layout/input_hardware.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/layout/spinner_item.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/layout/spinner_item.xml"
+    }
+]

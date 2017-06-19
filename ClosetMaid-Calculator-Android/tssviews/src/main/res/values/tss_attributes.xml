@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="tss_attributes">
+        
+       <attr name="tss_x" format="float" />
+       <attr name="tss_y" format="float"/>
+       <attr name="tss_originX" format="float"/>
+       <attr name="tss_originY" format="float"/>
+       <attr name="tss_width" format="float"/>
+       <attr name="tss_height" format="float"/>
+       
+       
+       <attr name="tss_scaleMode" format="enum">
+           <enum name="none" value="0"/>
+           <enum name="byWidth" value="1"/>
+           <enum name="byHeight" value="2"/>
+           <enum name="byParentWidth" value="3"/>
+           <enum name="byParentHeight" value="4"/>
+           <enum name="byXY" value="5"/>
+       </attr>
+   </declare-styleable>
+</resources>

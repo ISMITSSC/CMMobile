@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/exploded-aar/ClosetMaid-Calculator-Android/tssviews/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcc1038584efa440bb891becb7f4f83d973fec19">
+        <dex dex="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/pre-dexed/debug/ClosetMaid-Calculator-Android-tssviews-unspecified_eb1f40dccc83ea431c042fc11c5eea3268e0bc35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mehegeo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_b1cfa6065c524d54c73ed1772716580b455fba49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/exploded-aar/ShelvingCutCalculator/tssviews/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcc1038584efa440bb891becb7f4f83d973fec19">
+        <dex dex="/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/pre-dexed/debug/ShelvingCutCalculator-tssviews-unspecified_cc0dbac22aab8aa48e2a6ce038579a0232bfb130.jar" />
+    </item>
+
+</items>

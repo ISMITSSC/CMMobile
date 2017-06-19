@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_hardware_calculator_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_hardware_calculator_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_settings_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_settings_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/rounded_red_btn.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/rounded_red_btn.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/two_color_layer_rounded_button.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/two_color_layer_rounded_button.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_calculate_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_calculate_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/rounded_gray_btn.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/rounded_gray_btn.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/rounded_btn_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/rounded_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_calculate_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_calculate_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/rounded_gray_gradient_btn.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/rounded_gray_gradient_btn.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/rounded_red_btn_pressed.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/rounded_red_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/hardware_result_table_bg.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/hardware_result_table_bg.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/rounded_red_btn_pressed.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/rounded_red_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_hardware_calculator_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_hardware_calculator_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/rounded_gray_btn_pressed.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/rounded_gray_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/spinner_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/spinner_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_trash_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_trash_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/hardware_result_table_bg.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/hardware_result_table_bg.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/rounded_gray_btn.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/rounded_gray_btn.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/spinner_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/spinner_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/two_color_layer_rounded_button_pressed.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/two_color_layer_rounded_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_add_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_add_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/edt_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/edt_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_switch_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_switch_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/rounded_gray_btn_pressed.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/rounded_gray_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/rounded_red_btn.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/rounded_red_btn.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/rounded_gray_gradient_btn.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/rounded_gray_gradient_btn.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_shelving_cut_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_shelving_cut_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/edt_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/edt_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_shelving_cut_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_shelving_cut_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/two_color_layer_rounded_button_pressed.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/two_color_layer_rounded_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/two_color_layer_rounded_button.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/two_color_layer_rounded_button.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_settings_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_settings_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_switch_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_switch_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/rounded_btn_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/rounded_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/res/merged/debug/drawable/btn_add_selector.xml",
+        "source": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/drawable/btn_add_selector.xml"
+    },
+    {
+        "merged": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/res/merged/debug/drawable/btn_trash_selector.xml",
+        "source": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/drawable/btn_trash_selector.xml"
+    }
+]

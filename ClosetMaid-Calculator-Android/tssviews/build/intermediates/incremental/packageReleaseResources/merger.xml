@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res"/><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/build/generated/res/rs/release"/><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/build/generated/res/resValues/release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/release/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res"><file name="ic_launcher" path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">TSSViews</string></file><file path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/main/res/values/tss_attributes.xml" qualifiers=""><declare-styleable name="tss_attributes">
+        
+       <attr format="float" name="tss_x"/>
+       <attr format="float" name="tss_y"/>
+       <attr format="float" name="tss_originX"/>
+       <attr format="float" name="tss_originY"/>
+       <attr format="float" name="tss_width"/>
+       <attr format="float" name="tss_height"/>
+       
+       
+       <attr format="enum" name="tss_scaleMode">
+           <enum name="none" value="0"/>
+           <enum name="byWidth" value="1"/>
+           <enum name="byHeight" value="2"/>
+           <enum name="byParentWidth" value="3"/>
+           <enum name="byParentHeight" value="4"/>
+           <enum name="byXY" value="5"/>
+       </attr>
+   </declare-styleable></file></source><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/build/generated/res/rs/release"/><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/build/generated/res/resValues/release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="tss_attributes"><attr format="float" name="tss_x"/><attr format="float" name="tss_y"/><attr format="float" name="tss_originX"/><attr format="float" name="tss_originY"/><attr format="float" name="tss_width"/><attr format="float" name="tss_height"/><attr format="enum" name="tss_scaleMode">
+           <enum name="none" value="0"/>
+           <enum name="byWidth" value="1"/>
+           <enum name="byHeight" value="2"/>
+           <enum name="byParentWidth" value="3"/>
+           <enum name="byParentHeight" value="4"/>
+           <enum name="byXY" value="5"/>
+       </attr></declare-styleable></configuration></mergedItems></merger>

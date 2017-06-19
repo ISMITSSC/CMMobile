@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 45,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/tssviews/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 45,
+                        "endOffset": 721
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mehegeo/Development/ShelvingCutCalculator/tssviews/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 45,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/tssviews/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 45,
+                        "endOffset": 721
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tss="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+        
+        
+            <com.tss.views.TSSButton
+            android:id="@+id/btn_shelving_calculator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/btn_cut_calculator"
+            tss:tss_scaleMode="byWidth"
+            tss:tss_width="0.7"
+            tss:tss_x="0.15"
+            tss:tss_y="0.5" />
+
+        <com.tss.views.TSSView
+            android:id="@+id/view_logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp5_s"
+            android:background="@drawable/logo_closetmaid2x"
+            tss:tss_scaleMode="byWidth"
+            tss:tss_width="0.59" />
+
+        <com.tss.views.TSSView
+            android:id="@+id/pct_shelf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/art_shelving2x"
+            tss:tss_scaleMode="byWidth"
+            tss:tss_width="0.4"
+            tss:tss_x="0.6" />
+
+        <TextView
+            android:id="@+id/txt_what_you_need"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_logo"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp20_s"
+            android:gravity="left"
+            android:text="@string/what_you_need"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15_s"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_needed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_what_you_need"
+            android:layout_marginLeft="@dimen/dp7_s"
+            android:layout_marginTop="@dimen/dp5_s"
+            android:gravity="left"
+            android:text="@string/what_you_need"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15_s" />
+
+        <TextView
+            android:id="@+id/txt_excess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_needed"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp10_s"
+            android:gravity="left"
+            android:text="@string/excess"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15_s" />
+
+        <TextView
+            android:id="@+id/txt_how_to_cut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_excess"
+            android:layout_marginBottom="@dimen/dp3_s"
+            android:layout_marginLeft="@dimen/dp5_s"
+            android:layout_marginTop="@dimen/dp20_s"
+            android:text="@string/how_to_cut"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp15_s" />
+
+        <com.tss.views.TSSButton
+            android:id="@+id/btn_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txt_excess"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp10_s"
+            android:layout_marginRight="@dimen/dp5_s"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/btn_switch_selector"
+            android:onClick="switchMetric"
+            android:paddingBottom="@dimen/dp4_s"
+            android:paddingLeft="@dimen/dp2_s"
+            android:paddingRight="@dimen/dp2_s"
+            android:paddingTop="@dimen/dp4_s"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp13_s"
+            tss:tss_width="0.33" />
+
+        <GridView
+            android:id="@+id/grid_results"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt_how_to_cut"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp5_s"
+            android:layout_marginLeft="@dimen/dp10_s"
+            android:layout_marginRight="@dimen/dp10_s"
+            android:background="@color/white"
+            android:clickable="false"
+            android:listSelector="@null"
+            android:numColumns="2" >
+        </GridView>
+
+        <com.ridgid.softwaresolution.closetmaid.views.CutRodTextView
+            android:id="@+id/txt_cutrod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txt_how_to_cut"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/dp5_s"
+            android:layout_toLeftOf="@+id/txt_how_to_cut"
+            android:gravity="right"
+            android:singleLine="false"
+            android:paddingLeft="@dimen/dp12_s"
+            android:text="@string/downrod"
+            android:visibility="invisible"
+            android:textSize="@dimen/dp13_s" />
+    </RelativeLayout>
+
+</RelativeLayout>

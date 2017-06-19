@@ -1,0 +1,1760 @@
+[
+    {
+        "outputFile": "/Users/mehegeo/Development/ShelvingCutCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 57,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 55,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 40,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 40,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 210,
+                    "endColumn": 39,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1612,
+                        "endColumn": 39,
+                        "endOffset": 1647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 37,
+                    "endOffset": 283
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 827,
+                        "endColumn": 37,
+                        "endOffset": 860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 288,
+                    "endColumn": 39,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 865,
+                        "endColumn": 39,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endColumn": 37,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 37,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endColumn": 39,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1652,
+                        "endColumn": 39,
+                        "endOffset": 1687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 39,
+                    "endOffset": 441
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 943,
+                        "endColumn": 39,
+                        "endOffset": 978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 446,
+                    "endColumn": 37,
+                    "endOffset": 479
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 983,
+                        "endColumn": 37,
+                        "endOffset": 1016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 484,
+                    "endColumn": 39,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1692,
+                        "endColumn": 39,
+                        "endOffset": 1727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 39,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1021,
+                        "endColumn": 39,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 564,
+                    "endColumn": 37,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 37,
+                        "endOffset": 1094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 602,
+                    "endColumn": 37,
+                    "endOffset": 635
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 37,
+                        "endOffset": 520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 640,
+                    "endColumn": 39,
+                    "endOffset": 675
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1732,
+                        "endColumn": 39,
+                        "endOffset": 1767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 37,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1099,
+                        "endColumn": 37,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 718,
+                    "endColumn": 39,
+                    "endOffset": 753
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1137,
+                        "endColumn": 39,
+                        "endOffset": 1172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 758,
+                    "endColumn": 41,
+                    "endOffset": 795
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1772,
+                        "endColumn": 41,
+                        "endOffset": 1809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 800,
+                    "endColumn": 35,
+                    "endOffset": 831
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endColumn": 35,
+                        "endOffset": 556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 836,
+                    "endColumn": 39,
+                    "endOffset": 871
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1814,
+                        "endColumn": 39,
+                        "endOffset": 1849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 876,
+                    "endColumn": 39,
+                    "endOffset": 911
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endColumn": 39,
+                        "endOffset": 1212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 916,
+                    "endColumn": 39,
+                    "endOffset": 951
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1854,
+                        "endColumn": 39,
+                        "endOffset": 1889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 956,
+                    "endColumn": 39,
+                    "endOffset": 991
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1217,
+                        "endColumn": 39,
+                        "endOffset": 1252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 996,
+                    "endColumn": 39,
+                    "endOffset": 1031
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 1894,
+                        "endColumn": 39,
+                        "endOffset": 1929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1036,
+                    "endColumn": 39,
+                    "endOffset": 1071
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1934,
+                        "endColumn": 39,
+                        "endOffset": 1969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1076,
+                    "endColumn": 37,
+                    "endOffset": 1109
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 561,
+                        "endColumn": 37,
+                        "endOffset": 594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1114,
+                    "endColumn": 40,
+                    "endOffset": 1150
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 40,
+                        "endOffset": 2010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1155,
+                    "endColumn": 38,
+                    "endOffset": 1189
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1257,
+                        "endColumn": 38,
+                        "endOffset": 1291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1194,
+                    "endColumn": 40,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1296,
+                        "endColumn": 40,
+                        "endOffset": 1332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1235,
+                    "endColumn": 36,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 36,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 38,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1337,
+                        "endColumn": 38,
+                        "endOffset": 1371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 38,
+                    "endOffset": 1345
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 38,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1350,
+                    "endColumn": 38,
+                    "endOffset": 1384
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1376,
+                        "endColumn": 38,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1389,
+                    "endColumn": 38,
+                    "endOffset": 1423
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1415,
+                        "endColumn": 38,
+                        "endOffset": 1449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1428,
+                    "endColumn": 40,
+                    "endOffset": 1464
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1454,
+                        "endColumn": 40,
+                        "endOffset": 1490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1469,
+                    "endColumn": 36,
+                    "endOffset": 1501
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 36,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1506,
+                    "endColumn": 38,
+                    "endOffset": 1540
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1495,
+                        "endColumn": 38,
+                        "endOffset": 1529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1545,
+                    "endColumn": 38,
+                    "endOffset": 1579
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 38,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1584,
+                    "endColumn": 38,
+                    "endOffset": 1618
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1534,
+                        "endColumn": 38,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1623,
+                    "endColumn": 36,
+                    "endOffset": 1655
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 751,
+                        "endColumn": 36,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1660,
+                    "endColumn": 38,
+                    "endOffset": 1694
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1573,
+                        "endColumn": 38,
+                        "endOffset": 1607
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1699,
+                    "endColumn": 38,
+                    "endOffset": 1733
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endColumn": 38,
+                        "endOffset": 822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1738,
+                    "endColumn": 41,
+                    "endOffset": 1775
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 318,
+                        "endColumn": 41,
+                        "endOffset": 355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 1780,
+                    "endColumn": 43,
+                    "endOffset": 1819
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 43,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 1824,
+                    "endColumn": 41,
+                    "endOffset": 1861
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 41,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1866,
+                    "endColumn": 41,
+                    "endOffset": 1903
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ShelvingCutCalculator/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 5,
+                        "startOffset": 18,
+                        "endColumn": 42,
+                        "endOffset": 55
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 57,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 55,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 40,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 40,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 210,
+                    "endColumn": 39,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1612,
+                        "endColumn": 39,
+                        "endOffset": 1647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 37,
+                    "endOffset": 283
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 827,
+                        "endColumn": 37,
+                        "endOffset": 860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 288,
+                    "endColumn": 39,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 865,
+                        "endColumn": 39,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endColumn": 37,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 37,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endColumn": 39,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1652,
+                        "endColumn": 39,
+                        "endOffset": 1687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 39,
+                    "endOffset": 441
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 943,
+                        "endColumn": 39,
+                        "endOffset": 978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 446,
+                    "endColumn": 37,
+                    "endOffset": 479
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 983,
+                        "endColumn": 37,
+                        "endOffset": 1016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 484,
+                    "endColumn": 39,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1692,
+                        "endColumn": 39,
+                        "endOffset": 1727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 39,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1021,
+                        "endColumn": 39,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 564,
+                    "endColumn": 37,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 37,
+                        "endOffset": 1094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 602,
+                    "endColumn": 37,
+                    "endOffset": 635
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 37,
+                        "endOffset": 520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 640,
+                    "endColumn": 39,
+                    "endOffset": 675
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1732,
+                        "endColumn": 39,
+                        "endOffset": 1767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 37,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1099,
+                        "endColumn": 37,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 718,
+                    "endColumn": 39,
+                    "endOffset": 753
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1137,
+                        "endColumn": 39,
+                        "endOffset": 1172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 758,
+                    "endColumn": 41,
+                    "endOffset": 795
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1772,
+                        "endColumn": 41,
+                        "endOffset": 1809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 800,
+                    "endColumn": 35,
+                    "endOffset": 831
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endColumn": 35,
+                        "endOffset": 556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 836,
+                    "endColumn": 39,
+                    "endOffset": 871
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1814,
+                        "endColumn": 39,
+                        "endOffset": 1849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 876,
+                    "endColumn": 39,
+                    "endOffset": 911
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endColumn": 39,
+                        "endOffset": 1212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 916,
+                    "endColumn": 39,
+                    "endOffset": 951
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1854,
+                        "endColumn": 39,
+                        "endOffset": 1889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 956,
+                    "endColumn": 39,
+                    "endOffset": 991
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1217,
+                        "endColumn": 39,
+                        "endOffset": 1252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 996,
+                    "endColumn": 39,
+                    "endOffset": 1031
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 1894,
+                        "endColumn": 39,
+                        "endOffset": 1929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1036,
+                    "endColumn": 39,
+                    "endOffset": 1071
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1934,
+                        "endColumn": 39,
+                        "endOffset": 1969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1076,
+                    "endColumn": 37,
+                    "endOffset": 1109
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 561,
+                        "endColumn": 37,
+                        "endOffset": 594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1114,
+                    "endColumn": 40,
+                    "endOffset": 1150
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 40,
+                        "endOffset": 2010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1155,
+                    "endColumn": 38,
+                    "endOffset": 1189
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1257,
+                        "endColumn": 38,
+                        "endOffset": 1291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1194,
+                    "endColumn": 40,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1296,
+                        "endColumn": 40,
+                        "endOffset": 1332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1235,
+                    "endColumn": 36,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 36,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 38,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1337,
+                        "endColumn": 38,
+                        "endOffset": 1371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 38,
+                    "endOffset": 1345
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 38,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1350,
+                    "endColumn": 38,
+                    "endOffset": 1384
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1376,
+                        "endColumn": 38,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1389,
+                    "endColumn": 38,
+                    "endOffset": 1423
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1415,
+                        "endColumn": 38,
+                        "endOffset": 1449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1428,
+                    "endColumn": 40,
+                    "endOffset": 1464
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1454,
+                        "endColumn": 40,
+                        "endOffset": 1490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1469,
+                    "endColumn": 36,
+                    "endOffset": 1501
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 36,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1506,
+                    "endColumn": 38,
+                    "endOffset": 1540
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1495,
+                        "endColumn": 38,
+                        "endOffset": 1529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1545,
+                    "endColumn": 38,
+                    "endOffset": 1579
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 38,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1584,
+                    "endColumn": 38,
+                    "endOffset": 1618
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1534,
+                        "endColumn": 38,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1623,
+                    "endColumn": 36,
+                    "endOffset": 1655
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 751,
+                        "endColumn": 36,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1660,
+                    "endColumn": 38,
+                    "endOffset": 1694
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1573,
+                        "endColumn": 38,
+                        "endOffset": 1607
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1699,
+                    "endColumn": 38,
+                    "endOffset": 1733
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endColumn": 38,
+                        "endOffset": 822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1738,
+                    "endColumn": 41,
+                    "endOffset": 1775
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 318,
+                        "endColumn": 41,
+                        "endOffset": 355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 1780,
+                    "endColumn": 43,
+                    "endOffset": 1819
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 43,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 1824,
+                    "endColumn": 41,
+                    "endOffset": 1861
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 41,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1866,
+                    "endColumn": 41,
+                    "endOffset": 1903
+                },
+                "from": {
+                    "file": "/Users/mehegeo/Development/ClosetMaid-Calculator-Android/app/src/main/res/values-sw720dp/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 5,
+                        "startOffset": 18,
+                        "endColumn": 42,
+                        "endOffset": 55
+                    }
+                }
+            }
+        ]
+    }
+]
